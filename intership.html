@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internee.pk Auth – Lujaina 💚</title>
+  <link rel="stylesheet" href="internships.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="auth-container">
+
+    <div class="form-container active" id="signin-form">
+      <h1>Sign In to Internee.pk</h1>
+      <p>Welcome back! Please sign in to continue</p>
+
+      <button class="google-btn">Continue with Google</button>
+      <p class="or-text">or</p>
+
+      <label>Email Address</label>
+      <input type="email" id="signin-email" placeholder="Enter your email address" required>
+
+      <label>Password</label>
+      <input type="password" id="signin-password" placeholder="Enter your password" required>
+
+      <button class="continue-btn" id="signin-btn">Sign In</button>
+
+      <div class="switch-text">
+        Don't have an account? <a id="show-signup">Sign Up</a>
+      </div>
+    </div>
+
+    <div class="form-container" id="signup-form">
+      <h1>Create Your Internee.pk Account</h1>
+      <p>Start your internship journey today!</p>
+
+      <label>Full Name</label>
+      <input type="text" id="signup-name" placeholder="Enter your full name" required>
+
+      <label>Email Address</label>
+      <input type="email" id="signup-email" placeholder="Enter your email address" required>
+
+      <label>Password</label>
+      <input type="password" id="signup-password" placeholder="Enter your password" required>
+
+      <button class="continue-btn" id="signup-btn">Sign Up</button>
+
+      <div class="switch-text">
+        Already have an account? <a id="show-signin">Sign In</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
